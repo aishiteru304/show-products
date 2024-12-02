@@ -10,7 +10,7 @@ function App() {
 
   const [products, setProducts] = useState<HomeCardDto[]>([])
   const params = useRef({
-    limit: 10,
+    limit: 20,
     skip: 0,
     search: ""
   })
